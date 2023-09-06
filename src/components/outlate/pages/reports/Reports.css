@@ -1,0 +1,59 @@
+.form-select {
+  width: 53rem;
+  height: 7vh;
+  margin-bottom: 1.7rem;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex-container input {
+  width: 25rem;
+  height: 6vh;
+  margin-bottom: 1.7rem;
+}
+
+.flex-container select {
+  width: 25.5rem;
+  height: 7vh;
+  margin-bottom: 1.7rem;
+}
+
+.form-check {
+  margin-bottom: 1.7rem;
+}
+
+.textarea-container {
+  border: 2px solid rgb(145, 141, 141);
+  width: 53rem;
+  height: 7vh;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+}
+
+.textarea-container input {
+  width: 49.3rem;
+  height: 5vh;
+  border: none;
+  font-size: 1rem;
+}
+
+.textarea-container input:focus {
+  outline: none;
+}
+
+.textarea-container button {
+  background-color: skyblue;
+  border: none;
+  padding: 6px;
+  border-radius: 11px;
+  margin-right: 4px;
+}
+
+.textarea-container button:hover {
+  cursor: pointer;
+}

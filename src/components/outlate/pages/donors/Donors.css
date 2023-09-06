@@ -1,0 +1,38 @@
+table {
+    border-collapse: collapse;
+    width: 54rem;
+    height: 50vh;
+}
+.main-table-div{
+    display: flex;
+    flex-direction: column;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    /* border: 1px solid black; */
+}
+tr{
+    border-bottom: 1px solid lightgray;
+}
+
+table {
+    margin: 0 auto;
+}
+.table-heding{
+    font-size: 12px;
+}
+.icons img{
+    /* width: 1rem;
+    height: 4vh; */
+    width: 0.8rem;
+    height: 3vh;
+}
+.image_section{
+    width: 1.5rem;
+    height: 3vh;
+    margin-left: 1rem;
+    margin-top: 9px;
+}
