@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import home from '../../../assets/icons8-home.svg'
 import setting from '../../../assets/setting.svg'
+import shutdown from '../../../assets/icons-shutdown-.png'
+import docicon from '../../../assets/icons8-docs.png'
 import './Sidebar.css'
 import { AiOutlineRight } from 'react-icons/ai';
 import { Outlet, useNavigate } from 'react-router-dom';
@@ -26,14 +28,15 @@ const Sidebar = () => {
                             <img width="48" height="48" src="https://img.icons8.com/color/48/new-document.png" alt="new-document" />
                         </li>
                         <li className='image-list'>
-                            <img src={setting} alt=''  />
+                            <img src={setting} alt='' />
                         </li>
                         <li className='image-list'>
-                            <img width="48" height="48" src="https://img.icons8.com/sf-regular/48/shutdown.png" alt="shutdown"  />
-                            {/* <img src=alt=''/> */}
+                            <img src={shutdown} alt='' />
                         </li>
                         <li className='image-list'>
-                            <img width="50" height="50" src="https://img.icons8.com/ios/50/000000/create-order--v1.png" alt="create-order--v1" />                        </li>
+                            {/* <img width="50" height="50" src="https://img.icons8.com/ios/50/000000/create-order--v1.png" alt="create-order--v1" /> */}
+                            <img src={docicon} alt='' />
+                        </li>
                         <li className='image-list'>
                             <img width="48" height="48" src="https://img.icons8.com/color/48/ask-question.png" alt="ask-question" />
                         </li>
